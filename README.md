@@ -154,7 +154,8 @@ src
  │  ├ tasks.controller.ts
  │  ├ tasks.controller.spec.ts
  │  ├ tasks.service.ts
- │  └ tasks.service.spec.ts
+ │- test
+    └ tasks.service.spec.ts
 
 ---
 
