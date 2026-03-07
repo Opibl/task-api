@@ -1,8 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { TasksService } from './tasks.service';
+import { TasksService } from '../src/tasks/tasks.service';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Task } from './entities/task.entity';
+import { Task } from '../src/tasks/entities/task.entity';
 import { NotFoundException } from '@nestjs/common';
 
 describe('TasksService', () => {
